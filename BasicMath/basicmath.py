@@ -76,8 +76,8 @@ botaoNovoJogo = pygame.image.load("novojogo.png")
 botaoResetar = pygame.image.load("resetarJogo.png")
 
 # som com problemass
-# pygame.mixer.music.load("pygame.WAV")
-# pygame.mixer.music.play(-1)
+pygame.mixer.music.load("pygame.WAV")
+pygame.mixer.music.play(-1)
 
 
 # controlar a velocidade de atualizacoes da tela
